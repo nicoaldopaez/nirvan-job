@@ -7,6 +7,16 @@ public class Empleado
     public Empleado(){
         
     }
-
-  
+    
+    public String getnombreEmpleado()
+    {
+        return nombreEmpleado;
+    }
+    
+    public int setSalario()
+    {
+        return salario;
+    }
 }
+
+
