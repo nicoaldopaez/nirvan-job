@@ -13,9 +13,9 @@ public class Empleado
         return nombreEmpleado;
     }
     
-    public int setSalario()
+    public void setSalario(int aumento)
     {
-        return salario;
+        salario = aumento;
     }
 }
 
