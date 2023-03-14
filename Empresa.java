@@ -20,5 +20,16 @@ public class Empresa
         
     }
 
-    
+    public String getnombreEmpresa()
+    {
+        return nombreEmpresa;
+    }
+    public boolean getabierto()
+    {
+        return abierto;
+    }
+    public String getdireccion()
+    {
+        return direccion;
+    }
 }
