@@ -10,7 +10,7 @@ public class Empresa
     // instance variables - replace the example below with your own
     private String nombreEmpresa;
     private boolean abierto;
-    private String Direccion;
+    private String direccion;
 
     /**
      * Constructor for objects of class Empresa
@@ -18,7 +18,6 @@ public class Empresa
     public Empresa()
     {
         
-
     }
 
     
