@@ -17,6 +17,10 @@ public class Empleado
     {
         salario = aumento;
     }
+    
+    public void imprimirDetalles(){
+      System.out.println("Nombre del empleado: " + nombreEmpleado + "Salario: " + salario);  
+    }
 }
 
 
