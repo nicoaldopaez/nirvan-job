@@ -20,15 +20,15 @@ public class Empresa{
         this.trabajador = trabajador;
     }
 
-    public String getnombreEmpresa(){
+    public String getNombreEmpresa(){
         return nombreEmpresa;
     }
 
-    public boolean getabierto(){
+    public boolean getAbierto(){
         return abierto;
     }
 
-    public Empleado gettrabajador(){
+    public Empleado getTrabajador(){
         return trabajador;
     }
     
@@ -42,5 +42,9 @@ public class Empresa{
     
     public void setEmpleado(Empleado nuevoTrabajador){
         trabajador = nuevoTrabajador;
+    }
+    
+        public void imprimirDetalles(){
+        System.out.println("Nombre de la empresa: " + nombreEmpresa + " Estado actual: " + abierto + " Nombre del empleado: " + trabajador.getNombreEmpleado() + " Salario del empleado: " + trabajador.getSalario());
     }
 }
