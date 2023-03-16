@@ -23,6 +23,11 @@ public class Empleado
         salario = aumento;
     }
     
+    public void setNombreEmpleado(String cambioNombre)
+    {
+        cambioNombre = nombreEmpleado;
+    }
+    
     public void imprimirDetalles(){
       System.out.println("Nombre del empleado: " + nombreEmpleado + "Salario: " + salario);  
     }
