@@ -5,31 +5,42 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Empresa
-{
+public class Empresa{
     // instance variables - replace the example below with your own
     private String nombreEmpresa;
     private boolean abierto;
-    private String direccion;
+    private Empleado trabajador;
 
     /**
      * Constructor for objects of class Empresa
      */
-    public Empresa()
-    {
-        
+    public Empresa(String empresa, boolean puerta, Empleado trabajador ){
+        this.nombreEmpresa = empresa;
+        this.abierto = puerta;
+        this.trabajador = trabajador;
     }
 
-    public String getnombreEmpresa()
-    {
+    public String getnombreEmpresa(){
         return nombreEmpresa;
     }
-    public boolean getabierto()
-    {
+
+    public boolean getabierto(){
         return abierto;
     }
-    public String getdireccion()
-    {
-        return direccion;
+
+    public Empleado gettrabajador(){
+        return trabajador;
+    }
+    
+    public void setNombreEmpresa(String cambiarNombre){
+        nombreEmpresa = cambiarNombre;
+    }
+    
+    public void setAbierto(boolean cerrado){
+        abierto = cerrado;
+    }
+    
+    public void setEmpleado(Empleado nuevoTrabajador){
+        trabajador = nuevoTrabajador;
     }
 }
