@@ -25,7 +25,7 @@ public class Empleado
     
     public void setNombreEmpleado(String cambioNombre)
     {
-        cambioNombre = nombreEmpleado;
+         nombreEmpleado = cambioNombre;
     }
     
     public void imprimirDetalles(){
