@@ -5,8 +5,8 @@ public class Empleado
     private int salario;
 
     public Empleado(String nombre, int sueldo){
-        sueldo = salario;
-        nombre = nombreEmpleado;
+        salario = sueldo ;
+        nombreEmpleado = nombre;
     }
     
     public String getNombreEmpleado()
@@ -29,7 +29,7 @@ public class Empleado
     }
     
     public void imprimirDetalles(){
-      System.out.println("Nombre del empleado: " + nombreEmpleado + "Salario: " + salario);  
+      System.out.println("Nombre del empleado: "+" "+ nombreEmpleado +" "+ " Salario: " + salario);  
     }
 }
 
