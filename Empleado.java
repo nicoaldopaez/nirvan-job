@@ -4,13 +4,18 @@ public class Empleado
     private String nombreEmpleado;
     private int salario;
 
-    public Empleado(){
-        
+    public Empleado(String nombre, int sueldo){
+        sueldo = salario;
+        nombre = nombreEmpleado;
     }
     
-    public String getnombreEmpleado()
+    public String getNombreEmpleado()
     {
         return nombreEmpleado;
+    }
+    
+    public int getSalario(){
+        return salario;
     }
     
     public void setSalario(int aumento)
